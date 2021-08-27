@@ -7,7 +7,7 @@ public abstract class Aircraft {
 	private static long idCounter;
 	
 	protected Aircraft(String name, Coordinates coordinates) {
-		
+		name = "a";
 	}
 	
 	protected long nextId() {
